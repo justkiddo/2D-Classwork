@@ -10,6 +10,7 @@ public class EndGame : MonoBehaviour
         if (col.CompareTag("Player"))
         {
             Debug.Log("!!!!!!!!!");
+            Debug.Log(Time.time);
         }
     }
 }
